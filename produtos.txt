@@ -1,0 +1,51 @@
+Produto * Descrição * Preço * Tipo * Informação extra
+Café * Café descafeinado * 2.00 * Alimento * 10/12/2015
+Bolacha * Integral * 5.53 * Alimento * 2/4/2010
+Camiseta * Manga curta * 17.90 * Vestuário * 10
+Fogão * 4 bocas * 890.00 * Eletrodomestico * 125.00
+Suco * Laranja natural * 6.20 * Alimento * 15/08/2018
+Calça * Jeans azul * 89.90 * Vestuário * 12
+Geladeira * Duplex frost free * 2350.00 * Eletrodomestico * 210.00
+Chá * Verde orgânico * 4.75 * Alimento * 22/11/2012
+Jaqueta * Couro sintético * 199.00 * Vestuário * 8
+Micro-ondas * Digital * 450.00 * Eletrodomestico * 95.00
+Pão * Integral caseiro * 7.10 * Alimento * 5/6/2016
+Tênis * Corrida esportivo * 299.00 * Vestuário * 15
+Liquidificador * Alta potência * 320.00 * Eletrodomestico * 80.00
+Chocolate * Meio amargo * 9.50 * Alimento * 12/9/2014
+Vestido * Longo estampado * 149.00 * Vestuário * 6
+Arroz * Branco tipo 1 * 23.00 * Alimento * 10/03/2017
+Blusa * Manga longa * 75.00 * Vestuário * 9
+Máquina de lavar * 12kg automática * 1850.00 * Eletrodomestico * 150.00
+Biscoito * Recheado chocolate * 4.20 * Alimento * 18/07/2011
+Sapato * Social preto * 220.00 * Vestuário * 11
+Queijo * Mussarela * 32.00 * Alimento * 25/05/2019
+Shorts * Esportivo * 59.90 * Vestuário * 7
+Aspirador * Pó e água * 670.00 * Eletrodomestico * 110.00
+Leite * Integral * 4.80 * Alimento * 14/02/2013
+Casaco * Inverno lã * 310.00 * Vestuário * 5
+Ventilador * De mesa * 210.00 * Eletrodomestico * 60.00
+Iogurte * Natural * 3.90 * Alimento * 20/07/2015
+Saia * Curta preta * 89.00 * Vestuário * 4
+Televisão * LED 50 polegadas * 2890.00 * Eletrodomestico * 300.00
+Macarrão * Espaguete * 6.70 * Alimento * 11/11/2011
+Camisa * Social branca * 120.00 * Vestuário * 10
+Freezer * Horizontal * 1990.00 * Eletrodomestico * 180.00
+Feijão * Carioca * 12.50 * Alimento * 8/8/2016
+Moletom * Capuz cinza * 140.00 * Vestuário * 6
+Torradeira * Inox * 260.00 * Eletrodomestico * 70.00
+Manteiga * Sem sal * 9.80 * Alimento * 2/2/2014
+Cinto * Couro marrom * 85.00 * Vestuário * 3
+Panela * Pressão 5L * 180.00 * Eletrodomestico * 55.00
+Presunto * Fatiado * 28.00 * Alimento * 19/09/2017
+Boné * Aba curva * 49.90 * Vestuário * 2
+Cafeteira * Elétrica * 350.00 * Eletrodomestico * 90.00
+Mel * Orgânico * 22.00 * Alimento * 7/7/2012
+Sandália * Feminina * 129.00 * Vestuário * 4
+Secador * De cabelo * 280.00 * Eletrodomestico * 65.00
+Farinha * De trigo * 8.40 * Alimento * 3/3/2010
+Blazer * Masculino azul * 399.00 * Vestuário * 5
+Batedeira * Planetária * 720.00 * Eletrodomestico * 120.00
+Peixe * Salmão fresco * 45.00 * Alimento * 21/06/2018
+Meia * Algodão * 19.90 * Vestuário * 12
+Ferro * A vapor * 210.00 * Eletrodomestico * 50.00
