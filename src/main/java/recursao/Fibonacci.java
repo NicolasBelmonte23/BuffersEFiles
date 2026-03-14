@@ -42,15 +42,11 @@ public class Fibonacci {
         }
     }
 
-    public static void arr(int[] numero,int indice){
-        if(indice < 0){
-            return;
-        }
-        System.out.println(numero[indice]);
-        arr(numero, indice-1);
+    public static double elementos(double elementos[][]) throws IllegalArgumentException{
+        if (elementos == null) throw new IllegalArgumentException();
+        return elementos(elementos, 0, 0);
     }
-
-    public static double elementos(double elementos[][], int linha, int coluna) {
+    private static double elementos(double elementos[][], int linha, int coluna) {
         if (linha >= elementos.length) {
             return 0;
         }
