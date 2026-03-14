@@ -1,0 +1,26 @@
+--- RELATÓRIO DE ESTOQUE ---
+
+a) Alimento mais caro:
+   - Nome: Peixe | Preço: R$45.0
+
+b) Eletrodoméstico mais barato:
+   - Nome: Panela | Preço: R$180.0
+
+c) Vestuário em estoque:
+Camiseta - Quantidade: 10
+Calça - Quantidade: 12
+Jaqueta - Quantidade: 8
+Tênis - Quantidade: 15
+Vestido - Quantidade: 6
+Blusa - Quantidade: 9
+Sapato - Quantidade: 11
+Shorts - Quantidade: 7
+Casaco - Quantidade: 5
+Saia - Quantidade: 4
+Camisa - Quantidade: 10
+Moletom - Quantidade: 6
+Cinto - Quantidade: 3
+Boné - Quantidade: 2
+Sandália - Quantidade: 4
+Blazer - Quantidade: 5
+Meia - Quantidade: 12
