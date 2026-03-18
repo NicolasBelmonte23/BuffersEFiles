@@ -10,5 +10,6 @@ public class Main {
         System.out.println(app.numeroPrimo(4));
         System.out.println(app.inverteString("nico"));
         System.out.println(app.palindromo("anas"));
+        System.out.println(app.palindromo("ana"));
     }
 }
