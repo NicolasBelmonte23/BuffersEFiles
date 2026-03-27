@@ -1,8 +1,11 @@
 package pesquisaBinaria;
 
+import java.util.Arrays;
+
 public class Main {
     public static void main(String[] args) {
-        int[] ar = {1,2,3,4,5,6,7};
+        int[] ar = {1,7,3,4,5,6,2};
+        Arrays.sort(ar);//ordenando em ordem crescente
         int va = 7;
         System.out.println(binaria(ar,va));
     }
