@@ -9,7 +9,7 @@ public class BuscaOrdenada {
 
         int ind = ordenada(linhas,alvo );
 
-        if(ind != -1){
+            if(ind != -1){
             System.out.println("O numero " + alvo+ " foi encontrado no index " + ind);
         }else{
             System.out.printf("O alvo %d não foi encotrado.", alvo);
