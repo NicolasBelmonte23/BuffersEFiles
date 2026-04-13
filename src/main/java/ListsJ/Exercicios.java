@@ -35,4 +35,18 @@ public class Exercicios {
             }
         }
     }
+
+    public int exercicio4(StaticList<Integer>list1,StaticList<Integer>list2)throws IllegalArgumentException{
+        if(list1 == null || list2 == null || list1.isEmpty() || list2.isEmpty())throw new IllegalArgumentException();
+        return exercicio4(list1,0) + exercicio4(list2,0);
+    }
+    private int exercicio4(StaticList<Integer>list1, int index1){
+        if(index1 == list1.numElements()){
+            return 0;
+        }
+        return list1.get(index1) + exercicio4(list1,index1+1);
+
+    }
+
+
 }
