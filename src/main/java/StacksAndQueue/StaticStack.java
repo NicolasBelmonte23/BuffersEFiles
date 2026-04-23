@@ -55,4 +55,41 @@ public class StaticStack<E> implements Stack<E>{
         }
     }
 
+    public void flip() {
+        E array[] = (E[]) new Object[numElements()];
+        int cont = numElements();
+        int j = 0;
+
+        for (int i = 0; i < cont; i++) {
+            array[i] = pop();
+        }
+
+        while (j < array.length) {
+            push(array[j]);
+            j++;
+        }
+    }
+
+
+        public void InverteElementos(Stack<E> stack) {
+        if (stack.isEmpty())
+            return;
+        E last = popLast(stack);
+        InverteElementos(stack);
+        stack.push(last);
+    }
+
+    private <E> E popLast(Stack <E> stack)	{
+        E top = stack.pop();
+
+        if (stack.isEmpty()){
+            return top;
+        }
+        else {
+            E last= popLast(stack);
+            stack.push(top);
+            return last;
+        }
+    }
+
 }
