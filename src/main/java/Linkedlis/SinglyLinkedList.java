@@ -155,4 +155,55 @@ public class SinglyLinkedList<E> implements List<E> {
         //TODO
         return null; //apenas para compilar
     }
+
+    public int convertToInt(SinglyLinkedList<Integer>nums){
+        if(nums.isEmpty()){
+            return 0;
+        }
+        int resultado = 0;
+
+        for (int i = 0; i < nums.numElements(); i++) {
+            int dif = nums.get(i);
+            resultado = (resultado * 10) + dif;
+        }
+        return resultado;
+    }
+
+    public int somarLista(SinglyLinkedList<Integer> lista) {
+        return somarRecursivo(lista.head);
+    }
+
+    private int somarRecursivo(Node<Integer> noAtual) {
+        if (noAtual == null) {
+            return 0;
+        }
+        return noAtual.getElement() + somarRecursivo(noAtual.getNext());
+    }
+
+    public SinglyLinkedList<E> split(E element) {
+        // 1. Criamos a lista que será retornada (a primeira parte)
+        SinglyLinkedList<E> primeiraParte = new SinglyLinkedList<>();
+
+        if (isEmpty()) return primeiraParte;
+
+        Node<E> current = head;
+        int count = 1;
+
+        while (current != null && !current.getElement().equals(element)) {
+            current = current.getNext();
+            count++;
+        }
+
+        if (current == null) return primeiraParte;
+
+        primeiraParte.head = this.head;
+        primeiraParte.numElements = count;
+
+        this.head = current.getNext();
+        this.numElements = this.numElements - count;
+
+        current.setNext(null);
+
+        return primeiraParte;
+    }
 }
